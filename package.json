@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/DDDHernandez/burger/issues"
   },
-  "homepage": "https://github.com/DDDHernandez/burger#readme"
+  "homepage": "https://github.com/DDDHernandez/burger#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
