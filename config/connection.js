@@ -12,7 +12,7 @@ require("dotenv").config();
     connection = mysql.createConnection({
       host: 'localhost',
       user: 'root',
-      password: 'Bigd903453!',
+      password: process.env.MYSQL_PASSWORD,
       database: 'burgers_db'
     })
   }
